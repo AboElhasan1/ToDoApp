@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.todoapp.FirstFragment"
+        android:label="@string/first_fragment_label" />
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.todoapp.SecondFragment"
+        android:label="@string/second_fragment_label" />
+</navigation>
